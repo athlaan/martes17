@@ -5,5 +5,8 @@
 
 int main(int argc, char *argv[]) {
  int n = atoi(argv[1]);
+ int r = (rand() % 100) + 1;
+ if(r % n == 3) printf(""\n", r);
   return 0;
+
 }
